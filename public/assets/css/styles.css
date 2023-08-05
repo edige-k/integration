@@ -1,0 +1,45 @@
+.product-quantity {
+    display: flex;
+    align-items: center;
+
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin: 0 10px;
+}
+
+input.qtyplus,
+input.qtyminus {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+}
+
+input.qtyplus:hover,
+input.qtyminus:hover {
+    background-color: #e8e8e8;
+}
+
+input.qtyplus:focus,
+input.qtyminus:focus {
+    outline: none;
+}
+.modal-dialog{
+    width: 900px;
+}
+select.form-select.mt-2{
+    margin-bottom: 20px;
+}
